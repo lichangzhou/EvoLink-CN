@@ -280,7 +280,7 @@ EvoLink signs a direct link at play time and answers with a `302`.
 - Gap analysis, archive planning, 13-dimension weighted dedup, category rules,
   delete linkage and managed `302` reverse proxies
 
-This build ships **without** the adult-content metadata providers. The full international
+This build ships with a **reduced set of metadata providers**. The full international
 build — identical engine, plus the extra catalogue adapters — is at
 **[lichangzhou/Evolink](https://github.com/lichangzhou/Evolink)**.
 
