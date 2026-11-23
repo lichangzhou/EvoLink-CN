@@ -82,7 +82,7 @@ python3 server.py
 
 > **Emby 与 Jellyfin 要挂整个 `data` 目录，不能只挂主数据库文件。**
 > 两者都是 WAL 模式，只挂主文件会读到旧快照。
-
+>
 > 同一个 strm 目录**故意挂两次**：只读挂 `/Link` 给反代读写不挂 `/app/Link` 给写入方。
 
 ---
@@ -99,7 +99,7 @@ python3 server.py
 
 > EvoLink 使用 `network_mode: host`，`ports:` 段**完全无效**。服务直接绑宿主机端口，
 > 改端口要去面板里改。
-
+>
 > Emby / Jellyfin / Plex 原生容器已经占用了各自常用端口。EvoLink 不要占用也不要改动，
 > 只有上面三个反代端口属于 EvoLink。
 
