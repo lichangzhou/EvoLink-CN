@@ -921,7 +921,7 @@ def dup_libs(category="", bucket=""):
 
 
 def _dup_where(libs=None):
-    """排重的 WHERE。libs 非空 = 只在这些库里找；空 = 全库（标题口径排除 Adult/三级）。"""
+    """排重的 WHERE。libs 非空 = 只在这些库里找；空 = 全库（标题口径排除特殊分类/三级）。"""
     libs = [l for l in (libs or []) if l]
     where = "norm!=''"
     args = []
