@@ -258,6 +258,25 @@ Docker-Link（跑起来） → EvoLink（理清楚） → Playable（看下去�
 
 ---
 
+## 问题反馈
+
+**遇到 BUG 或有想法？直接在这里提，会直达维护者：**
+
+| 想反馈什么 | 入口 |
+|---|---|
+| BUG、报错、崩溃 | [提交问题报告](https://github.com/lichangzhou/EvoLink-CN/issues/new?template=bug_report.yml) |
+| 功能建议 | [提交功能建议](https://github.com/lichangzhou/EvoLink-CN/issues/new?template=feature_request.yml) |
+| 部署问题、怎么用 | [讨论区](https://github.com/lichangzhou/EvoLink-CN/discussions) |
+| 提交代码 | [Compare & pull request](https://github.com/lichangzhou/EvoLink-CN/compare) |
+
+问题报告模板会要求填版本号、部署方式、宿主架构和对接的媒体服务器——这几项填了，
+报告才能直接定位。另外，**部署和使用类问题请发讨论区而不是 issue**，issue 留给真正
+的缺陷，这样问题列表才不会被问法淹掉。
+
+⚠️ **切勿把 cookie、API key、`data/config.json` 或 `.strm` 内容贴进 issue**，请先脱敏。
+
+---
+
 ## 参与贡献
 
 欢迎 issue 与 PR，规则见 [CONTRIBUTING.md](CONTRIBUTING.md)。要点：
